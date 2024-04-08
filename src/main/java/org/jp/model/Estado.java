@@ -11,6 +11,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
+@Entity
 public class Estado {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
