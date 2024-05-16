@@ -1,12 +1,8 @@
 package org.jp.resource;
 
-import java.util.logging.Logger;
-
-import org.hibernate.mapping.Constraint;
 import org.jp.application.Result;
 import org.jp.dto.EstadoDTO;
 import org.jp.dto.EstadoResponseDTO;
-import org.jp.repository.EstadoRepository;
 import org.jp.service.EstadoService;
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityNotFoundException;

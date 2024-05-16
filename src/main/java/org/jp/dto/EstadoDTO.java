@@ -1,7 +1,6 @@
 package org.jp.dto;
 
 import org.jp.model.Estado;
-
 import jakarta.validation.constraints.NotBlank;
 
 public record EstadoDTO(
